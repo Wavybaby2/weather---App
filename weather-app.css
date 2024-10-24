@@ -54,7 +54,7 @@ button[type="submit"]:hover{
     border-radius: 15px;
     background-repeat: no-repeat;
     box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.511);
-    width: 470px;
+    min-width: 300px;
     background-color: white;
     }
 
@@ -100,7 +100,6 @@ p{
     }
   .container{
     overflow: hidden;
-      max-width: 400px;
   }
     .cityInput{
         padding: 10px;
