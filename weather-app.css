@@ -1,0 +1,138 @@
+body{
+    font-family: Arial, Verdana;
+background: rgb(236, 236, 236);
+margin: 0;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.weatherForm{
+    margin-top: 0;
+    padding-top: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.cityInput{
+    padding: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: 1px solid rgb(54, 54, 54);
+    border-radius: 10px;
+    margin: 10px;
+    width: 200px;
+}
+button[type="submit"]{
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 1.3rem;
+    background: linear-gradient(to right, red, blue);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button[type="submit"]:hover{
+    background: linear-gradient(to right, rgb(223, 33, 33), rgb(19, 19, 193));
+}
+.card{
+    padding: 50px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    min-width: 300px;
+    display: flex;
+    background-size: cover;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.container{
+    padding: 25px;
+    border-radius: 15px;
+    background-repeat: no-repeat;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.511);
+    min-width: 310px;
+    background-color: white;
+    }
+
+h1{
+    font-size: 3.5rem;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+p{
+    font-size: 1.5rem;
+    margin: 5px 0;
+}
+
+.cityDisplay, .tempDisplay{
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: rgb(48, 46, 46);
+    margin-bottom: 25px;
+}
+.humidityDisplay{
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.descDisplay{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+.weatherEmoji{
+    margin: 0;
+    font-size: 7rem;
+}
+.errorDisplay{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(218, 49, 49);
+}
+@media only screen and (max-width: 650px){
+    .weatherForm{
+        display: flex;
+        flex-direction: column;
+    }
+  .container{
+    overflow: hidden;
+  }
+    .cityInput{
+        padding: 10px;
+        font-size: 1rem;
+        font-weight: bold;
+        border: 1px solid rgb(54, 54, 54);
+        border-radius: 10px;
+        margin: 10px;
+        width: 150px;
+    }
+    button[type="submit"]{
+        padding: 9px 18px;
+        font-weight: bold;
+        font-size: 1.3rem;
+        background: linear-gradient(to right, red, blue);
+        color: white;
+        border: none;
+        border-radius: 7px;
+        cursor: pointer;
+    }
+    button[type="submit"]:hover{
+        background: linear-gradient(to right, rgb(223, 33, 33), rgb(19, 19, 193));
+    }
+    .card{
+        background: url(download.jpg);
+        padding: 50px;
+        border-radius: 10px;
+        background-repeat: no-repeat;
+        min-width: 300px;
+        display: flex;
+        background-size: cover;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+}
