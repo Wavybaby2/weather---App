@@ -54,7 +54,7 @@ button[type="submit"]:hover{
     border-radius: 15px;
     background-repeat: no-repeat;
     box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.511);
-    min-width: 300px;
+    min-width: 340px;
     background-color: white;
     }
 
